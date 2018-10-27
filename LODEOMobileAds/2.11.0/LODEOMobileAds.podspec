@@ -1,16 +1,19 @@
+# VERSION
+VERSION = '2.11.0'
+
 ## --- paths
 ZIP_NAME = 'LODEOMobileAds'
 SDK_PATH = "#{ZIP_NAME}/SDK"
 SCRIPT_PATH = "#{ZIP_NAME}/extract_devide_binary.sh"
 FRAMEWORK_PATH = "#{SDK_PATH}/universal/LODEOMobileAds.framework"
 MOPUBADAPTER_FILES_PATH = "#{SDK_PATH}/MoPubAdapter/*.swift"
-DOWNLOAD_URL_DIRECTORY = 'https://github.com/millsdk/Spec/releases/download/2.11.0'
+DOWNLOAD_URL_DIRECTORY = "https://github.com/millsdk/Spec/releases/download/#{VERSION}"
 ## ---------
 
 
 Pod::Spec.new do |s|
   s.name                  = 'LODEOMobileAds'
-  s.version               = '2.11.0'
+  s.version               = VERSION
   s.summary               = '___________'
   s.homepage              = 'https://www.lodeo.io/'
   s.author                = { '_______' => '_________@___.com' }
