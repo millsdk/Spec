@@ -13,10 +13,9 @@ download_url_directory = "https://github.com/millsdk/Spec/releases/download/#{ve
 Pod::Spec.new do |s|
   s.name                  = 'LODEOMobileAds'
   s.version               = version
-  s.summary               = '___________'
-  s.homepage              = 'https://www.lodeo.io/'
-  s.author                = { '_______' => '_________@___.com' }
-  s.license               = { :type => 'MIT', :file => 'LICENSE' }
+  s.summary               = '_'
+  s.homepage              = '_'
+  s.author                = { '_' => 'dummy@dummy.com' }
   s.source                = { :http => "#{download_url_directory}/#{zip_name}_#{s.version.to_s}.zip", :type => :zip }
   s.default_subspec       = 'Core'
 
